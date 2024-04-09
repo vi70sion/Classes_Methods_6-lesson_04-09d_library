@@ -16,7 +16,7 @@ public class Main {
         Knyga book1 = new Knyga(1970, author1, "Carrie to The Dead Zone");
         Biblioteka library = new Biblioteka();
         library.addToBooksList(book1);
-        for(Knyga book : library.booksList){
+        for(Knyga book : library.getLibraryList()){
             System.out.println(book.getBookInfo());
         }
     }

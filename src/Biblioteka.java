@@ -4,11 +4,14 @@
 import java.util.ArrayList;
 
 public class Biblioteka {
-    ArrayList<Knyga> booksList = new ArrayList<Knyga>();
+    private ArrayList<Knyga> booksList = new ArrayList<Knyga>();
 
     public void addToBooksList(Knyga book){
         booksList.add(book);
     }
 
+    public ArrayList<Knyga> getLibraryList(){
+        return booksList;
+    }
 
 }

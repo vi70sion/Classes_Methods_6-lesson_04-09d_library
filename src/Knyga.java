@@ -1,7 +1,7 @@
 //                Sukurti klasę Knyga, kuri turi išleidimo metus, autorių bei pavadinimą.
 public class Knyga {
     private int releaceYear;
-    Autorius author;
+    private Autorius author;
     private String bookTitle;
 
     public Knyga(int releaceYear, Autorius author, String bookTitle) {
